@@ -1,0 +1,7 @@
+# Created by .ignore support plugin
+.gradle
+.idea
+gradlew
+gradlew.bat
+*.iml
+build
