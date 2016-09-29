@@ -1,13 +1,12 @@
-group 'cn.mwee'
+group 'org.autolook'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'maven'
-apply plugin: 'idea'
 apply plugin: 'spring-boot'
 apply plugin: 'application'
 
-mainClassName = "cn.mwee.main.SampleApp"
+mainClassName = "org.autolook.main.SampleApp"
 
 applicationDefaultJvmArgs = ["-server", "-Xms512M", "-Xmx2048M" , "-Xss256k" , "-Xincgc" , "-XX:+HeapDumpOnOutOfMemoryError" , "-Dfile.encoding=UTF-8"]
 
